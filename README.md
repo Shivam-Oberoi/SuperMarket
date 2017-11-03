@@ -36,7 +36,7 @@ MVC(Model, view and Controller)
 
 1.	Create New Order:- 
 
-*curl -X POST --header "Content-Type: application/json" --header "Accept: /" -d "{ "customerName": "string", "customerPhoneNo": "string", "id": 0, "totalAmount": 0 }" "http://localhost:8080/v1/order"
+curl -X POST --header "Content-Type: application/json" --header "Accept: */*" "http://localhost:8080/v1/order/newOrder""
 
 2.	Scan product:- 
 
